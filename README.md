@@ -419,6 +419,10 @@ u.check_token()
 
 No arguments for check_token
 
+##### Returns
+
+Returns `False` if the token wasn't required to be renewed. `True` if the token was renewed.
+
 #### Logout ####
 
 Logs the user out of all clients and removes the expires_in, expires_datetime, id_token, refresh_token, access_token, and token_type attributes.
